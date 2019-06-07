@@ -1,6 +1,7 @@
 # __author__ = "Christian Barnes"
 
-from os
+import os
+
 from flask_restful import Resource, Api
 from flask import Flask,jsonify
 from flask_jwt_extended import JWTManager
