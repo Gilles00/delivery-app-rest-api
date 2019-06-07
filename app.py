@@ -23,11 +23,6 @@ api = Api(app)
 app.config.from_object('config')
 
 
-
-@app.before_first_request
-def create_tables():
-    db.create_all()
-
 jwt = JWTManager(app)
 
 ### User enpoints
